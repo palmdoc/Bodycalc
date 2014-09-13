@@ -1,0 +1,166 @@
+﻿<!DOCTYPE HTML>
+<html manifest="OfflineApp.appcache">
+<head>
+<meta charset="utf-8">
+<title>BodyCalc</title>
+<meta name="generator" content="NSB/AppStudio 4.1.5.1$gxbr" />
+<meta name='date' content='2014-09-14 05:59:57.843000' />
+<meta name='version' content='1.0.1' />
+<meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=no, minimal-ui' />
+<meta name='apple-mobile-web-app-capable' content='YES' />
+<meta name='mobile-web-app-capable' content='yes' />
+<meta name='apple-mobile-web-app-status-bar-style' content='default' />
+<meta name='apple-mobile-web-app-title' content='' />
+<meta name='copyright' content='Copyright 2012 ABC Company' />
+<noscript><h1>JavaScript must be enabled!</h1></noscript>
+<link rel='apple-touch-icon' href='iconpalmdoc2_64.png' />
+<!-- Startup images -->
+<!-- iOS 6 & 7 iPad (retina, portrait) -->
+<link href='splash/ios/1536x2008.png'
+      media='(device-width: 768px) and (device-height: 1024px)
+         and (orientation: portrait)
+         and (-webkit-device-pixel-ratio: 2)'
+      rel='apple-touch-startup-image'>
+<!-- iOS 6 & 7 iPad (retina, landscape) -->
+<link href='splash/ios/1496x2048.png'
+      media='(device-width: 768px) and (device-height: 1024px)
+         and (orientation: landscape)
+         and (-webkit-device-pixel-ratio: 2)'
+      rel='apple-touch-startup-image'>
+<!-- iOS 6 iPad (portrait) -->
+<link href='splash/ios/768x1004.png'
+      media='(device-width: 768px) and (device-height: 1024px)
+         and (orientation: portrait)
+         and (-webkit-device-pixel-ratio: 1)'
+      rel='apple-touch-startup-image'>
+<!-- iOS 6 iPad (landscape) -->
+<link href='splash/ios/748x1024.png'
+      media='(device-width: 768px) and (device-height: 1024px)
+         and (orientation: landscape)
+         and (-webkit-device-pixel-ratio: 1)'
+      rel='apple-touch-startup-image'>
+<!-- iOS 6 & 7 iPhone 5 -->
+<link href='splash/ios/640x1096.png'
+      media='(device-width: 320px) and (device-height: 568px)
+         and (-webkit-device-pixel-ratio: 2)'
+      rel='apple-touch-startup-image'>
+<!-- iOS 6 & 7 iPhone (retina) -->
+<link href='splash/ios/640x920.png'
+      media='(device-width: 320px) and (device-height: 480px)
+         and (-webkit-device-pixel-ratio: 2)'
+      rel='apple-touch-startup-image'>
+<!-- iOS 6 iPhone -->
+<link href='splash/ios/320x460.png'
+      media='(device-width: 320px) and (device-height: 480px)
+         and (-webkit-device-pixel-ratio: 1)'
+      rel='apple-touch-startup-image'>
+<link rel='shortcut icon' sizes='196x196' href='nsb/images/1024.png' />
+<script src="nsb/jquery.js"></script>
+<script src="nsb/hfunc.js"></script>
+<link href="nsb/nsbstyle.css" rel="stylesheet">
+<script src="nsb/fastclick.js"></script>
+<script src="https://pagead2.googlesyndication.com/pagead/show_afmc_ads.js"></script>
+<script src="nsb/jquery.mobile.js"></script>
+<link href="nsb/jquery.mobile.css" rel="stylesheet">
+<script src="nsb/complexfunctions.js"></script>
+<script src="nsb/iscroll.js"></script>
+
+<link href="nsb/library/addtohomescreen.css" rel="stylesheet">
+<script src="nsb/library/addtohomescreen.min.js"></script>
+<script src="17.js"></script>
+
+
+<style type="text/css">
+#AdSense1 {position:absolute; left:0px; right:auto; top:85%; bottom:auto; height:50px; width:100%}
+#btnHeight {position:absolute; left:25px; right:auto; top:15%; bottom:auto; height:auto; width:255px}
+#selHeight {position:absolute; left:165px; right:auto; top:27%; bottom:auto; height:auto; width:104px}
+#txtHeight { text-align: left; font-size:17px;  background-color: transparent; height:auto; text-align:center; }
+#txtHeight_wrapper > div { position: absolute; width:120px; left:35px; right:auto; top:27%; bottom:auto; height:auto; margin:0px;  }
+#btnWeight {position:absolute; left:25px; right:auto; top:40%; bottom:auto; height:auto; width:255px}
+#hdrMain {position: absolute; width:100%; height:40px; left:0px; top:0px;}
+#txtWeight { text-align: left; font-size:17px;  background-color: transparent; height:auto; text-align:center; }
+#txtWeight_wrapper > div { position: absolute; width:120px; left:35px; right:auto; top:52%; bottom:auto; height:auto; margin:0px;  }
+#selWeight {position:absolute; left:165px; right:auto; top:52%; bottom:auto; height:auto; width:104px}
+#btnGo {position:absolute; left:25px; right:auto; top:65%; bottom:auto; height:auto; width:156px}
+#btnClear {position:absolute; left:190px; right:auto; top:65%; bottom:auto; height:auto; width:97px}
+#txtKeypad { text-align: left; font-size:20px;  background-color: transparent; height:auto; text-align:center; }
+#txtKeypad_wrapper > div { position: absolute; width:200px; left:35px; right:auto; top:16px; bottom:auto; height:auto; margin:0px;  }
+#btn1 {position:absolute; left:23px; right:auto; top:88px; bottom:auto; height:auto; width:62px}
+#btn2 {position:absolute; left:104px; right:auto; top:87px; bottom:auto; height:auto; width:62px}
+#btn3 {position:absolute; left:186px; right:auto; top:88px; bottom:auto; height:auto; width:62px}
+#btn4 {position:absolute; left:23px; right:auto; top:146px; bottom:auto; height:auto; width:63px}
+#btn5 {position:absolute; left:104px; right:auto; top:146px; bottom:auto; height:auto; width:62px}
+#btn6 {position:absolute; left:188px; right:auto; top:146px; bottom:auto; height:auto; width:62px}
+#btn7 {position:absolute; left:21px; right:auto; top:202px; bottom:auto; height:auto; width:62px}
+#btn8 {position:absolute; left:104px; right:auto; top:202px; bottom:auto; height:auto; width:62px}
+#btn9 {position:absolute; left:188px; right:auto; top:202px; bottom:auto; height:auto; width:62px}
+#btnClr {position:absolute; left:21px; right:auto; top:258px; bottom:auto; height:auto; width:62px}
+#btnDot {position:absolute; left:103px; right:auto; top:258px; bottom:auto; height:auto; width:62px}
+#btn0 {position:absolute; left:188px; right:auto; top:258px; bottom:auto; height:auto; width:62px}
+#btnEnter {position:absolute; left:65px; right:auto; top:322px; bottom:auto; height:auto; width:137px}
+#lblBSA {position:absolute; left:22px; right:auto; top:12%; bottom:auto; height:20px; width:71px}
+#lblBMI {position:absolute; left:20px; right:auto; top:33%; bottom:auto; height:20px; width:107px}
+#lblIBW {position:absolute; left:21px; right:auto; top:55%; bottom:auto; height:20px; width:132px}
+#hdrResults {position: absolute; width:100%; height:40px; left:0px; top:0px;}
+#txtBSA { text-align: left; font-size:17px;  background-color: transparent; height:auto; text-align:center; }
+#txtBSA_wrapper > div { position: absolute; width:120px; left:17px; right:auto; top:20%; bottom:auto; height:auto; margin:0px;  }
+#selBSA {position:absolute; left:146px; right:auto; top:20%; bottom:auto; height:auto; width:167px}
+#txtBMI { text-align: left; font-size:17px;  background-color: transparent; height:auto; text-align:center; }
+#txtBMI_wrapper > div { position: absolute; width:120px; left:15px; right:auto; top:40%; bottom:auto; height:auto; margin:0px;  }
+#btnInterp {position:absolute; left:147px; right:auto; top:40%; bottom:auto; height:auto; width:157px}
+#txtIBW { text-align: left; font-size:17px;  background-color: transparent; height:auto; text-align:center; }
+#txtIBW_wrapper > div { position: absolute; width:120px; left:14px; right:auto; top:62%; bottom:auto; height:auto; margin:0px;  }
+#radSex {position:absolute; left:159px; right:auto; top:62%; bottom:auto; height:auto; width:131px}
+#lblUnits {position:absolute; left:52px; right:auto; top:99px; bottom:auto; height:26px; width:83px}
+#hdrPref {position: absolute; width:100%; height:40px; left:0px; top:0px;}
+#radUnits {position:absolute; left:111px; right:auto; top:89px; bottom:auto; height:auto; width:122px}
+#HTMLAbout_scroller {position: absolute; overflow:hidden; width:303px; height:90%; left:7px; top:42px;}
+#HTMLAbout {position:absolute; left:0px; top:0px; height:90%; width:303px}
+#hdrHelp {position: absolute; width:100%; height:40px; left:0px; top:0px;}
+#lsMenu_scroller {position: absolute; overflow:hidden; width:320px; height:90px; left:4px; top:366px;}
+#lsMenu {position:absolute; left:0px; top:0px; width:100%; height:auto }
+#lsMenu {left:4px; top:366px;}
+#HTMLInfo_scroller {position: absolute; overflow:hidden; width:307px; height:80%; left:3px; top:53px;}
+#HTMLInfo {position:absolute; left:0px; top:0px; height:80%; width:307px}
+#hdrInfo {position: absolute; width:100%; height:40px; left:0px; top:0px;}
+body * {font-family:helvetica}
+</style>
+</head>
+<body style="margin:0px;-ms-touch-action:none;">
+<script src="19.js"></script>
+<div data-role="page" id="Page_jqm" data-theme="a" style="">
+
+<form id="frmMain" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; background:-webkit-gradient(linear, left top, left bottom, from(#EFFBF5), to(#A9E2F3));; top:20px; left:0px; width:100%; ">
+<script src="21.js"></script>
+</form>
+
+
+<form id="frmKeypad" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; background:-webkit-gradient(linear, left top, left bottom, from(#EFFBF5), to(#A9E2F3));; top:20px; left:0px; width:100%; ">
+<script src="23.js"></script>
+</form>
+
+
+<form id="frmResult" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; background:-webkit-gradient(linear, left top, left bottom, from(#EFFBF5), to(#A9E2F3));; top:20px; left:0px; width:100%; ">
+<script src="25.js"></script>
+</form>
+
+
+<form id="frmPref" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; background:-webkit-gradient(linear, left top, left bottom, from(#EFFBF5), to(#A9E2F3));; top:20px; left:0px; width:100%; ">
+<script src="27.js"></script>
+</form>
+
+
+<form id="frmAbout" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; background:-webkit-gradient(linear, left top, left bottom, from(#EFFBF5), to(#A9E2F3));; top:20px; left:0px; width:100%; ">
+<script src="29.js"></script>
+</form>
+
+
+<form id="frmInfo" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; top:20px; left:0px; width:100%; ">
+<script src="31.js"></script>
+</form>
+
+</div>
+<script src="33.js"></script>
+
+</body>
+</html>

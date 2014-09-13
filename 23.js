@@ -1,0 +1,16 @@
+
+frmKeypad.innerHTML=[  "<div id='txtKeypad_wrapper'><input id='txtKeypad' type='text' name='' autocorrect='on' autocomplete='on' autocapitalize='on' maxlength=32 step=any value='' placeholder='' data-nsb-type='TextBox_jqm'  class='ui-mini ui-btn-  ' readonly=\"readonly\"></div>",
+  "<button id='btn1' class='ui-btn ui-mini  ui-btn-inline ui-icon-false ui-btn-icon-none  ' style='margin:0px; overflow:visible; font-size:17px; font-family:; font-style:; font-weight:; ;  ' data-nsb-type=Button_jqm>1</button>",
+  "<button id='btn2' class='ui-btn ui-mini  ui-btn-inline ui-icon-false ui-btn-icon-none  ' style='margin:0px; overflow:visible; font-size:17px; font-family:; font-style:; font-weight:; ;  ' data-nsb-type=Button_jqm>2</button>",
+  "<button id='btn3' class='ui-btn ui-mini  ui-btn-inline ui-icon-false ui-btn-icon-none  ' style='margin:0px; overflow:visible; font-size:17px; font-family:; font-style:; font-weight:; ;  ' data-nsb-type=Button_jqm>3</button>",
+  "<button id='btn4' class='ui-btn ui-mini  ui-btn-inline ui-icon-false ui-btn-icon-none  ' style='margin:0px; overflow:visible; font-size:17px; font-family:; font-style:; font-weight:; ;  ' data-nsb-type=Button_jqm>4</button>",
+  "<button id='btn5' class='ui-btn ui-mini  ui-btn-inline ui-icon-false ui-btn-icon-none  ' style='margin:0px; overflow:visible; font-size:17px; font-family:; font-style:; font-weight:; ;  ' data-nsb-type=Button_jqm>5</button>",
+  "<button id='btn6' class='ui-btn ui-mini  ui-btn-inline ui-icon-false ui-btn-icon-none  ' style='margin:0px; overflow:visible; font-size:17px; font-family:; font-style:; font-weight:; ;  ' data-nsb-type=Button_jqm>6</button>",
+  "<button id='btn7' class='ui-btn ui-mini  ui-btn-inline ui-icon-false ui-btn-icon-none  ' style='margin:0px; overflow:visible; font-size:17px; font-family:; font-style:; font-weight:; ;  ' data-nsb-type=Button_jqm>7</button>",
+  "<button id='btn8' class='ui-btn ui-mini  ui-btn-inline ui-icon-false ui-btn-icon-none  ' style='margin:0px; overflow:visible; font-size:17px; font-family:; font-style:; font-weight:; ;  ' data-nsb-type=Button_jqm>8</button>",
+  "<button id='btn9' class='ui-btn ui-mini  ui-btn-inline ui-icon-false ui-btn-icon-none  ' style='margin:0px; overflow:visible; font-size:17px; font-family:; font-style:; font-weight:; ;  ' data-nsb-type=Button_jqm>9</button>",
+  "<button id='btnClr' class='ui-btn ui-mini  ui-btn-inline ui-icon-false ui-btn-icon-none  ' style='margin:0px; overflow:visible; font-size:17px; font-family:; font-style:; font-weight:; ;  ' data-nsb-type=Button_jqm>C</button>",
+  "<button id='btnDot' class='ui-btn ui-mini  ui-btn-inline ui-icon-false ui-btn-icon-none  ' style='margin:0px; overflow:visible; font-size:17px; font-family:; font-style:; font-weight:; ;  ' data-nsb-type=Button_jqm>\u00B7</button>",
+  "<button id='btn0' class='ui-btn ui-mini  ui-btn-inline ui-icon-false ui-btn-icon-none  ' style='margin:0px; overflow:visible; font-size:17px; font-family:; font-style:; font-weight:; ;  ' data-nsb-type=Button_jqm>0</button>",
+  "<button id='btnEnter' class='ui-btn ui-mini  ui-btn-inline ui-icon-false ui-btn-icon-none  ' style='margin:0px; overflow:visible; font-size:20px; font-family:; font-style:; font-weight:; color:Green; ;  ' data-nsb-type=Button_jqm>Done</button>",
+  ].join('');
